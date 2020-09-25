@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 protocol TabSelectable {
 	associatedtype Tab
 	func shouldSelect(_ tab: Tab) -> Bool
